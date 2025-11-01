@@ -3,4 +3,5 @@ console.log("chai");
 process.stdout.write("chai");
 process.stdout.write("chai");
 
-console.table("")
+console.table({ city: "Jaipur" });
+console.warn({ city: "Jaipur" });
