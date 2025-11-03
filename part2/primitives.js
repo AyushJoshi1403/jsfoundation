@@ -30,3 +30,22 @@ let lastName;                                    // undefined means value not as
 let myString = "hello";
 let myStringOne = 'Hola';
 let username = 'ayush'
+
+let oldGreet = myString + " " + "hitesh";             // concatenation
+console.log(oldGreet);
+
+
+let greetMessage = `Hello ${username} !`;                     // string interpolation
+console.log(greetMessage);
+let demoOne = `Value is ${2*2}`;
+console.log(demoOne);
+
+
+// Symbol                                               (allways unique)
+
+let sm1 = Symbol();
+let sm2 = Symbol("aysuh");
+let sm3 = Symbol("ayush");
+
+console.log(sm1);
+console.log(sm2 == sm3);                              // false because each symbol is unique even if description is same
