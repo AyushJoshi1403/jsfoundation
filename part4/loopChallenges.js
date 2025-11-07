@@ -64,8 +64,10 @@ let multipliedNumbers = [];
 let numbers = [2, 4, 6];
 
 for (let l = 0; l < numbers.length; l++) {
-    takeNumber = numbers[l] * 2;
-    multipliedNumbers.push(takeNumber)
+    // takeNumber = numbers[l] * 2;
+    // multipliedNumbers.push(takeNumber);
+
+    multipliedNumbers.push(numbers[l] * 2);                             // another way to do it
 }
 
 // console.log(multipliedNumbers);
@@ -82,4 +84,4 @@ for (let c = 0; c < cities.length; c++) {
   const myCity = cities[c];
   cityList.push(myCity);
 }
-console.log(cityList);
+// console.log(cityList);
