@@ -10,3 +10,5 @@ class Dog extends Animal {
     console.log(`${this.name} says Woof!`);
   }
 }
+const myDog = new Dog("Buddy");
+myDog.bark(); // Output: Buddy says Woof!
