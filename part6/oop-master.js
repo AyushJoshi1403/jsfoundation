@@ -5,8 +5,3 @@ class Animal {
     this.name = name;
     }
 }
-class Dog extends Animal {
-  bark() {
-    console.log(`${this.name} says Woof!`);
-  }
-}
