@@ -47,4 +47,3 @@ function Drink(name){
 }
 let tea = new Drink("tea")
 // let coffee = Drink("coffee")
-
